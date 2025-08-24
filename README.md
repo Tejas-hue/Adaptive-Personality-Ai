@@ -12,5 +12,5 @@ I'm still working on this one.
 
 Edit:
 ````
-v1 models and notebook have been uploaded in the v1 folder
+v1 models have been uploaded in the v1 folder
 ````
