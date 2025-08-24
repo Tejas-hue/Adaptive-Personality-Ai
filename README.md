@@ -8,3 +8,9 @@
 I'm still working on this one.
 
 **It's not pretty yet, but it's going to be great. Please check back later!**
+
+
+Edit:
+````
+v1 models and notebook have been uploaded in the v1 folder
+````
