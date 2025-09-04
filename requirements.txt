@@ -1,0 +1,23 @@
+# requirements.txt
+
+# Core Data Science & ML
+pandas
+numpy
+scikit-learn==1.2.2
+joblib
+
+# Deep Learning (PyTorch & Hugging Face)
+torch
+transformers
+datasets
+accelerate
+peft
+bitsandbytes
+sentence-transformers
+
+# UI, API, and Visualization
+streamlit
+gradio
+gradio_client
+pyngrok
+plotly
