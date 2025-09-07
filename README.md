@@ -120,3 +120,61 @@ Install dependencies:
 pip install -r requirements.txt
 ```
 
+## Datasets
+
+This project utilized four distinct datasets to train and evaluate the AI models:
+
+1.  **GoEmotions**
+    * A large-scale dataset of Reddit comments annotated for 27 fine-grained emotion categories.
+    * **Citation:**
+        ```bibtex
+        @inproceedings{demszky2020goemotions,
+         author = {Demszky, Dorottya and Movshovitz-Attias, Dana and Ko, Jeongwoo and Cowen, Alan and Nemade, Gaurav and Ravi, Sujith},
+         booktitle = {58th Annual Meeting of the Association for Computational Linguistics (ACL)},
+         title = {{GoEmotions: A Dataset of Fine-Grained Emotions}},
+         year = {2020}
+        }
+        ```
+
+2.  **Essaysbig5 (Personality Essays Dataset)**
+    * A collection of essays annotated with Big Five personality traits.
+    * **Citation:**
+        ```bibtex
+        @software{jingjietan-apr-dataset,
+          author = {Jing Jie, Tan},
+          title = {Personality Essays Dataset Splitting},
+          url = {[https://huggingface.co/datasets/jingjietan/essays-big5](https://huggingface.co/datasets/jingjietan/essays-big5)},
+          version = {1.0.0},
+          year = {2024}
+        }
+        ```
+    * **Hugging Face Dataset Link:** [https://huggingface.co/datasets/jingjietan/essays-big5](https://huggingface.co/datasets/jingjietan/essays-big5)
+
+3.  **PANDORA (Personality and Demographic coNtent-based tRait Analysis)**
+    * A large-scale Reddit dataset with user comments labeled with Big Five personality traits.
+    * **Citation**
+        >  * **arXiv Link:** [https://arxiv.org/abs/2004.04460](https://arxiv.org/abs/2004.04460)
+
+4.  **EmoBank**
+    * A corpus of English sentences annotated with Valence-Arousal-Dominance (VAD) dimensional emotion metadata.
+    * **Citation:**
+        ```bibtex
+        @inproceedings{buechel2017emobank,
+          title={EmoBank: Studying the Impact of Annotation Perspective and Representation Format on Dimensional Emotion Analysis},
+          author={Buechel, Sven and Hahn, Udo},
+          booktitle={Proceedings of the 15th Conference of the European Chapter of the Association for Computational Linguistics (EACL)},
+          pages={578--585},
+          year={2017}
+        }
+        @inproceedings{buechel2017readers,
+          title={Readers vs. writers vs. texts: Coping with different perspectives of text understanding in emotion annotation},
+          author={Buechel, Sven and Hahn, Udo},
+          booktitle={Proceedings of the 11th Linguistic Annotation Workshop @ EACL 2017},
+          pages={1--12},
+          year={2017}
+        }
+        ```
+    * **Project Page/Dataset Link:** [http://aclweb.org/anthology/E17-2092](http://aclweb.org/anthology/E17-2092) (for the first paper) and [https://sigann.github.io/LAW-XI-2017/papers/LAW01.pdf](https://sigann.github.io/LAW-XI-2017/papers/LAW01.pdf) (for the second paper).
+
+---
+
