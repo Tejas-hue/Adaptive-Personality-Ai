@@ -1,3 +1,4 @@
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/Tejas-hue/Adaptive-Personality-Ai)
 # Adaptive Personality & Emotion AI
 
 ---
